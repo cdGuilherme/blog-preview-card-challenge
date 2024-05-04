@@ -2,7 +2,10 @@
   - longer width for desktop
 */
 
-@import url('/assets/fonts/Figtree-VariableFont_wght.ttf');
+@font-face {
+  font-family: 'Figtree';
+  src: url('/assets/fonts/Figtree-VariableFont_wght.ttf');
+}
 
 .figtree-500 {
   font-family: "Figtree", sans-serif;
@@ -20,14 +23,16 @@
 
 body {
   background-color: hsl(47, 88%, 63%);
+  color: hsl(0, 0%, 7%);
 }
 
 .card {
   width: 277px;
+  /* height: 451px; */
   border: 1px solid black;
   border-radius: 20px;
   padding: 24px;
-  background-color: white;
+  background-color: hsl(0, 0%, 100%);
   box-shadow: 8px 8px;
 }
 
@@ -37,15 +42,29 @@ body {
   margin-bottom: 20px;
 }
 
+p {
+  margin: 24px 0px;
+}
+
 .category {
+  font-size: 12px;
   border-radius: 4px;
-  padding: 4px 12px;
+  padding: 6px 12px;
   width: fit-content;
   background-color: hsl(47, 88%, 63%);
 }
 
-h1 {
-  font-size: 1.2em;
+.publishdate {
+  font-size: 12px;
+}
+
+.title {
+  font-size: 20px;
+}
+
+.description {
+  font-size: 14px;
+  color: hsl(0, 0%, 50%);
 }
 
 .author {
