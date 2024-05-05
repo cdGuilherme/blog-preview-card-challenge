@@ -7,6 +7,11 @@
   --white: hsl(0, 0%, 100%);
   --grey: hsl(0, 0%, 50%);
   --black: hsl(0, 0%, 7%);
+
+  --heading: 24px;
+  --body-m: 16px;
+  --body-s-bold: 14px;
+  --body-s-regular: 14px;
 }
 
 @font-face {
@@ -86,6 +91,7 @@ body {
 }
 
 .author-name {
+  font-size: var(--body-s-bold);
   line-height: 0px;
   height: 10px;
   margin: 0px;
@@ -125,18 +131,18 @@ body {
   }
 
   .category {
-    font-size: 14px;
+    font-size: var(--body-s-bold);
   }
 
   .publishdate {
-    font-size: 14px;
+    font-size: var(--body-s-regular);
   }
 
   .title {
-    font-size: 24px;
+    font-size: var(--heading);
   }
 
   .description {
-    font-size: 16px;
+    font-size: var(--body-m);
   }
 }
