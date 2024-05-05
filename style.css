@@ -1,5 +1,5 @@
 /* TODO:
-  - longer width for desktop
+  - fix text overflow
 */
 
 :root {
@@ -66,26 +66,19 @@ body {
   padding: 6px 12px;
   width: fit-content;
   background-color: var(--yellow);
-  margin-bottom: 12px;
-  margin-top: 0;
 }
 
 .publishdate {
   font-size: 12px;
-  margin-bottom: 12px;
-  margin-top: 0;
 }
 
 .title {
   font-size: 20px;
-  margin-bottom: 12px;
-  margin-top: 0;
 }
 
 .description {
   font-size: 14px;
   color: var(--grey);
-  margin-top: 0;  
 }
 
 .author {
@@ -114,4 +107,36 @@ body {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+/* desktop mode, change width later */
+@media screen and (min-width: 420px) {
+  body {
+    background-color: brown;
+  }
+
+  .card {
+    width: 334px;
+    height: 472px;
+  }
+  
+  .content {
+    height: 194px;
+  }
+
+  .category {
+    font-size: 14px;
+  }
+
+  .publishdate {
+    font-size: 14px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
 }
