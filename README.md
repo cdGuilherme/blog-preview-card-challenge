@@ -45,7 +45,7 @@ Users should be able to:
 
 With this project I was able to learn about using custom fonts using CSS as well as using media query. I also experimented using CSS Flexbox.
 
-During this project I had trouble when spacing elements evenly inside the content div when using p and h1 elements. After experimenting with my code for a while, what worked for me was using the following css code:
+During this project I had trouble when spacing elements evenly inside the content div when using p and h1 elements. After experimenting with my code for a while, what worked for me was using the following CSS code:
 
 ```css
 .content {
@@ -60,7 +60,7 @@ During this project I had trouble when spacing elements evenly inside the conten
 }
 ```
 
-This is also my first time using Figma when designing the page and tried my best to get as close to the design as possible.
+This is also my first time using Figma when designing the page and I tried my best to get as close to the design as possible.
 
 ### Continued development
 
