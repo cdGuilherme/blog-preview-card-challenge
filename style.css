@@ -93,7 +93,6 @@ body {
   cursor: pointer;
 }
 
-/* https://stackoverflow.com/Questions/8114657/how-to-style-the-parent-element-when-hovering-a-child-element */
 .card:has(.title:hover) {
   box-shadow: 16px 16px;
 }
