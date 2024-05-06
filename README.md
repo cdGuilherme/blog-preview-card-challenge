@@ -15,8 +15,6 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -55,6 +53,7 @@ During this project I had trouble when spacing elements evenly inside the conten
   flex-direction: column;
   justify-content: space-between;
 }
+
 .category, .publishdate, .title, .description {
   margin: 0;
   display: inline-flex;
@@ -71,7 +70,7 @@ With future projects I aim to improve my understanding about using CSS Flexbox a
 
 - [CSS :hover Selector by w3schools](https://www.w3schools.com/CSSref/sel_hover.php) - This helped me use the :hover selector when interacting with the card title.
 - [How to style the parent element when hovering a child element? on stackoverflow](https://stackoverflow.com/Questions/8114657/how-to-style-the-parent-element-when-hovering-a-child-element) - This helped me change the box-shadow of the card element when hovering the card title.
-- [CSS Flexbox formatting with <p> on stackoverflow](https://stackoverflow.com/questions/60355877/css-flexbox-formatting-with-p#60355921) - This helped me to evenly space the p and h1 elements inside the content div.
+- [CSS Flexbox formatting with p element on stackoverflow](https://stackoverflow.com/questions/60355877/css-flexbox-formatting-with-p#60355921) - This helped me to evenly space the p and h1 elements inside the content div.
 
 ## Author
 
