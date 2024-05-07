@@ -10,12 +10,10 @@
   --body-s-regular: 14px;
 }
 
-/* for some reason importing fonts from local directory only works locally but it won't work using github pages. */
-/* so instead i'm importing fonts from the html document */
-/* @font-face {
+@font-face {
   font-family: 'Figtree';
-  src: url('../assets/fonts/Figtree-VariableFont_wght.ttf');
-} */
+  src: url('assets/fonts/Figtree-VariableFont_wght.ttf');
+}
 
 .figtree-500 {
   font-family: "Figtree", sans-serif;

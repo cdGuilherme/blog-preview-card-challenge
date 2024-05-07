@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://github.com/nanikore0/blog-preview-card-challenge)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/blog-preview-card-challenge-cLHfhS0kJO)
 - Live Site URL: [Live Site URL](https://nanikore0.github.io/blog-preview-card-challenge/)
 
 ## My process
