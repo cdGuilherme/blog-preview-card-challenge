@@ -14,6 +14,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -76,3 +77,7 @@ With future projects I aim to improve my understanding about using CSS Flexbox a
 
 - Github - [nanikore](https://github.com/nanikore0)
 - Frontend Mentor - [@nanikore0](https://www.frontendmentor.io/profile/nanikore0)
+
+## Acknowledgments
+
+Thanks [joaomarcosSR](https://www.frontendmentor.io/profile/joaomarcosSR) for helping with font import in CSS.
