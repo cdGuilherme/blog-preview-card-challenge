@@ -4,10 +4,10 @@
   --grey: hsl(0, 0%, 50%);
   --black: hsl(0, 0%, 7%);
 
-  --heading: 24px;
-  --body-m: 16px;
-  --body-s-bold: 14px;
-  --body-s-regular: 14px;
+  --heading: 1.25rem;
+  --body-m: 0.875rem;
+  --body-s-bold: 0.75rem;
+  --body-s-regular: 0.75rem;
 }
 
 @font-face {
@@ -32,18 +32,17 @@
 body {
   background-color: var(--yellow);
   color: var(--black);
+  overflow: hidden;
+
+  /* center card */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100svh;
 }
 
 .card {
-  /* center card */
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-
-  /* card style */
   width: 277px;
   height: 451px;
   border: 1px solid black;
@@ -56,7 +55,7 @@ body {
 .blogimage {
   border-radius: 10px;
   width: 100%;
-  height: 194px;
+  height: 200px;
   margin-bottom: 24px;
   object-fit: cover;
 }
@@ -76,7 +75,7 @@ body {
 }
 
 .category {
-  font-size: 12px;
+  font-size: var(--body-s-bold);
   border-radius: 4px;
   padding: 6px 12px;
   width: fit-content;
@@ -84,11 +83,11 @@ body {
 }
 
 .publishdate {
-  font-size: 12px;
+  font-size: var(--body-s-regular);
 }
 
 .title {
-  font-size: 20px;
+  font-size: var(--heading);
 }
 
 .title:hover {
@@ -101,7 +100,7 @@ body {
 }
 
 .description {
-  font-size: 14px;
+  font-size: var(--body-m);
   color: var(--grey);
 }
 
@@ -110,7 +109,7 @@ body {
 }
 
 .author-name {
-  font-size: var(--body-s-bold);
+  font-size: 0.875rem;
   line-height: 0px;
   height: 10px;
   margin: 0px;
@@ -128,9 +127,10 @@ body {
 .attribution {
   font-size: 11px;
   text-align: center;
-  position: fixed;
-  bottom: 0;
+  position: absolute;
   width: 100%;
+  left: 0;
+  bottom: 0;
 }
 
 .attribution a {
@@ -138,6 +138,13 @@ body {
 }
 
 @media screen and (min-width: 1224px) {
+  :root {
+    --heading: 1.5rem;
+    --body-m: 1rem;
+    --body-s-bold: 0.875rem;
+    --body-s-regular: 0.875rem;
+  }
+
   .card {
     width: 334px;
     height: 472px;
