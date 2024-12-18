@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/blog-preview-card-challenge-cLHfhS0kJO)
-- Live Site URL: [Live Site URL](https://nanikore0.github.io/blog-preview-card-challenge/)
+- Live Site URL: [Live Site URL](https://cdguilherme.github.io/blog-preview-card-challenge/)
 
 ## My process
 
@@ -75,8 +75,8 @@ With future projects I aim to improve my understanding about using CSS Flexbox a
 
 ## Author
 
-- Github - [nanikore](https://github.com/nanikore0)
-- Frontend Mentor - [@nanikore0](https://www.frontendmentor.io/profile/nanikore0)
+- Github - [Guilherme Costa](https://github.com/cdGuilherme)
+- Frontend Mentor - [@cdGuilherme](https://www.frontendmentor.io/profile/cdGuilherme)
 
 ## Acknowledgments
 
